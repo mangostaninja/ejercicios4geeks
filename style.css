@@ -1,0 +1,102 @@
+h1, p, button, input{
+    font-family: 'Dancing Script', cursive;
+    background-color: whitesmoke;
+}
+input{
+    float: right;
+    margin: 2%;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-radius: 5px;
+}
+input:hover{
+    background: linear-gradient(green, yellow, red);
+}
+
+.entradas{
+    width: 30%;
+    margin-top: 4%;
+   
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+.postal{
+    background-color: whitesmoke;
+    margin-top: 20%;
+    height: 20em;
+    width: 40em;
+    border-radius: 10px;
+    border: 2px solid dimgray;
+}
+.logo{
+    margin-top: 2%;
+    margin-right: 2%;
+    float: right;
+}
+.imagen{
+    height:5em;
+    
+    
+}
+header{
+    height:5em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.textito{
+    margin-left: 3%;
+    width: 30%;
+}
+.encabezado{
+    margin-left: 3%;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+button{
+    padding: 1px;
+    margin-top: 4%;
+    border: 2px solid grey;
+    border-radius: 5px;
+    background-color: rgb(218, 211, 211);
+    
+}
+button:hover{
+    color: fuchsia;
+    background-color: greenyellow;
+}
+#faso{
+ position: absolute;
+ opacity: 50%;
+ color: green;
+ margin-left: 170px;
+}
+#faso1{
+ position: absolute;
+ opacity: 50%;
+ color: blue;
+ margin-left: 170px;
+ margin-top: 30px;
+}
+#faso2{
+ position: absolute;
+ opacity: 50%;
+ color: red;
+ margin-left: 170px;
+ margin-top: 60px;
+}
+
