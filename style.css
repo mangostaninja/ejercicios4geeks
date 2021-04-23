@@ -9,13 +9,14 @@ input{
     border-left: transparent;
     border-right: transparent;
     border-radius: 5px;
-}
-input:hover{
-    background: linear-gradient(green, yellow, red);
+    width: 100%;
+
 }
 
-.entradas{
-    width: 30%;
+
+.inputs{
+    margin-right: 3%;
+    width: 50%;
     margin-top: 4%;
    
 }
@@ -29,12 +30,12 @@ body{
     justify-content: center;
     background-color: black;
 }
-.postal{
+.post-card{
     background-color: whitesmoke;
     margin-top: 20%;
-    height: 20em;
-    width: 40em;
-    border-radius: 10px;
+    height: 22em;
+    width: 30em;
+    
     border: 2px solid dimgray;
 }
 .logo{
@@ -55,11 +56,11 @@ header{
     justify-content: space-between;
 
 }
-.textito{
+.text-post{
     margin-left: 3%;
     width: 30%;
 }
-.encabezado{
+.header-post{
     margin-left: 3%;
 }
 section{
@@ -71,32 +72,10 @@ button{
     padding: 1px;
     margin-top: 4%;
     border: 2px solid grey;
-    border-radius: 5px;
     background-color: rgb(218, 211, 211);
     
 }
 button:hover{
-    color: fuchsia;
-    background-color: greenyellow;
+    color: red;
+    background-color: gray;
 }
-#faso{
- position: absolute;
- opacity: 50%;
- color: green;
- margin-left: 170px;
-}
-#faso1{
- position: absolute;
- opacity: 50%;
- color: blue;
- margin-left: 170px;
- margin-top: 30px;
-}
-#faso2{
- position: absolute;
- opacity: 50%;
- color: red;
- margin-left: 170px;
- margin-top: 60px;
-}
-
